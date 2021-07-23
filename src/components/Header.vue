@@ -1,11 +1,13 @@
 <template>
   <header>
-    <b-container class="header">
+    <b-container>
       <b-row>
         <b-col cols="12">
-          <h1 class="header-title" :title="title" :aria-label="title">
-            {{ title }}
-          </h1>
+          <div class="header">
+            <h1 class="header-title" :title="title" :aria-label="title">
+              {{ title }}
+            </h1>
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -33,7 +35,7 @@ export default {
     font-size: 50px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    margin-top: 250px;
+    padding-top: 250px;
   }
 }
 </style>
