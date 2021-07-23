@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <Header />
+    <Header title="Trabalhe no Elo7" />
     <fade-transition :duration="200" origin="center top" mode="out-in">
       <router-view></router-view>
     </fade-transition>
