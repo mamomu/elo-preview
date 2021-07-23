@@ -8,14 +8,18 @@
             luctus, quis tempor elit commodo. Suspendisse sodales odio elit, non interdum ante
             iaculis at. Nam ut dui gravida, aliquam eros vitae, imperdiet ex.
           </p>
+          <Button content="Vagas em Aberto" url="https://elo7.gupy.io" />
         </b-col>
       </b-row>
     </section>
   </b-container>
 </template>
 <script>
+import Button from "@/components/Button.vue";
 export default {
-  components: {},
+  components: {
+    Button
+  },
   data() {
     return {};
   },
