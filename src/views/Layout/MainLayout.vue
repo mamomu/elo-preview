@@ -20,9 +20,7 @@ export default {
     FadeTransition,
     Header,
     Footer
-  },
-  methods: {},
-  mounted() {}
+  }
 };
 </script>
 <style lang="scss"></style>

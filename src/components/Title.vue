@@ -23,7 +23,7 @@ export default {
   text-align: center;
 }
 .title-container {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   h2 {
     text-transform: uppercase;
     font-size: 20px;

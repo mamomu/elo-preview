@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" class="btn-default">{{ content }} »</a>
+  <a :href="url" class="btn-default" role="button" :title="content">{{ content }} »</a>
 </template>
 <script>
 export default {
@@ -19,6 +19,7 @@ export default {
   display: block;
   position: relative;
   font-size: 20px;
+  text-align: center;
   font-weight: 600;
   color: #359c9c;
   text-transform: uppercase;

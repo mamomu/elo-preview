@@ -4,7 +4,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-ENV API_URL="http://www.mocky.io/v2/5d6fb6b1310000f89166087b"
+ENV API_URL="http://run.mocky.io/v2/5d6fb6b1310000f89166087b"
 
 RUN npm run build
 
